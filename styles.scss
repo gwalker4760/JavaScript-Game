@@ -1,0 +1,19 @@
+$color-black:black;
+$color-white:white;
+// $font-size:
+
+//'Press Start 2P' to call the font
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+body {
+    color: $color-white;
+    background-color: $color-black;
+    font-family: 'Press Start 2P';
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
