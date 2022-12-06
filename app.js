@@ -1,0 +1,1 @@
+const clickStart = document.querySelector(".start");
