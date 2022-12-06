@@ -36,18 +36,24 @@ main {
         align-items: center;
         margin: 10px;
         padding: 10px;
+        border: 2px solid white;
+        width: 1fr;
+
     }
+
     // .knight {
-    //     width: 1fr;
+    //     box-sizing: border-box;
     // }
     // .wizard {
-    //     width: 1fr;
+    //     box-sizing: border-box;
 
     // }
-    .button {
-        margin-top: 20px;
-        font-family: 'Press Start 2P';
-        max-width: 100px;
-        
-    }
+
+    
+}
+
+.button {
+    margin-top: 20px;
+    font-family: 'Press Start 2P';
+    max-width: 100px;
 }

@@ -30,9 +30,12 @@ main {
   align-items: center;
   margin: 10px;
   padding: 10px;
+  border: 2px solid white;
+  width: 1fr;
 }
-.characters .button {
+
+.button {
   margin-top: 20px;
   font-family: "Press Start 2P";
   max-width: 100px;
-}/*# sourceMappingURL=styles.css.map */
+}

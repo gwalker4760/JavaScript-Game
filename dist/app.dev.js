@@ -1,3 +1,6 @@
 "use strict";
 
-var clickStart = document.querySelector(".start");
+var startButton = document.querySelector(".start");
+startButton.addEventListener("click", function () {
+  window.location.href = "character.html";
+});
