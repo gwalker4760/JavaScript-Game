@@ -23,6 +23,8 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+
 }
 
 .characters {
@@ -38,18 +40,8 @@ main {
         padding: 10px;
         border: 2px solid white;
         width: 1fr;
-
+        text-align: center;
     }
-
-    // .knight {
-    //     box-sizing: border-box;
-    // }
-    // .wizard {
-    //     box-sizing: border-box;
-
-    // }
-
-    
 }
 
 .button {
