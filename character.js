@@ -1,6 +1,6 @@
 const chooseKnight = document.querySelector(".knight");
 const chooseMerlin = document.querySelector(".merlin");
-const chooseCharacter = document.querySelectorAll(".character");
+// const chooseCharacter = document.querySelectorAll(".character");
 
 // Choosing the knight 
 chooseKnight.addEventListener("click", () => {
