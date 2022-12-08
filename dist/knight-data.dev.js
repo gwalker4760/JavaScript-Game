@@ -1,10 +1,11 @@
 "use strict";
 
-var playerHealth = document.querySelector(".knightHealth");
-var enemyHealth = document.querySelector(".trollHealth");
-var buttons = document.querySelectorAll(".button");
+var playerHealth = document.querySelector(".playerHealth");
+var enemyHealth = document.querySelector(".enemyHealth");
+var attackButtons = document.querySelectorAll(".attack");
+var container = document.querySelector(".eventFeed");
 var data = [{
-  "knightHealth": 45,
+  knightHealth: 40,
   SwordSlash: 10,
   ShieldBash: 10
 }, {
@@ -19,8 +20,9 @@ var data = [{
 // console.log(data.trollHealth);
 // buttons = data;
 
-playerHealth.innerHTML = "Health: ".concat(data[0].knightHealth); // enemyHealth.innerHTML = (`Health: ${data.}`)
-// buttons.forEach((button) => {
+playerHealth.innerHTML = "Health: ".concat(data[0].knightHealth);
+enemyHealth.innerHTML = "Health: ".concat(data[2].trollHealth);
+container.innerHTML = "Player has attacked!"; // buttons.forEach((button) => {
 //     button.addEventListener("click", (e) => {
 //         console.log(e.target.innerHTML);
 //     })

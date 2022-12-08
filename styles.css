@@ -31,7 +31,7 @@ main {
   margin: 10px;
   padding: 20px;
   border: 2px solid white;
-  width: 1fr;
+  height: 300px;
   text-align: center;
 }
 .characters .abilites {
@@ -46,4 +46,14 @@ main {
 
 .character-box {
   width: 50%;
+}
+
+.eventFeed {
+  border: 2px solid white;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: small;
 }

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>_nology RPG</title>
     <link rel="stylesheet" href="styles.css" />
-    <script src="app.js" async defer></script>
+    <script src="merlin-data.js" async defer></script>
   </head>
   <body class="container">
     <header>
@@ -14,7 +14,6 @@
     </header>
 
     <main>
-        <p>Who are you?</p>
       <h3>Merlin</h3>
       <p>Quick a troll has appeared before you!</p>
       <p>You must slay him!</p>
@@ -23,12 +22,13 @@
     </main>
 
     <aside class="characters">
-        <div class="character-box">
+      <div class="character-box">
       <h4 class="merlin character_box">
-          Merlin
+          
+        Merlin
           <br>
           <br>
-          <p class="player-health">
+          <p class="playerHealth">
             Health: 20
             </p>
         <br />
@@ -40,8 +40,8 @@
         <br />
         Abilities: Fireball (Hot potato), lightning strike
         <p class="abilites">
-          <button class="button">Fireball (Hot potato)</button>
-          <button class="button">Lightning strike</button>
+          <button class="button attack">Fireball (Hot potato)</button>
+          <button class="button attack">Lightning Strike</button>
         </p>
       </h4>
     </div>
@@ -51,7 +51,7 @@
         Troll
         <br>
         <br>
-        <p class="enemy-health">
+        <p class="enemyHealth">
           Health: 40
         </p>
         <br>
@@ -62,8 +62,14 @@
         <br>
         <br>
         Abilities: Tackle, Swing
+        <br><br>
+        <button class="button end">End</button>
       </h4>
     </div>
     </aside>
+
+    <footer class="eventFeed">
+      
+    </footer>
   </body>
 </html>
